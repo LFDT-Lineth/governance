@@ -2,8 +2,8 @@ teams:
   - name: lf-staff
     maintainers:
       - ryjones
-    members:
       - jwagantall
+    members:
       - thelinuxfoundation
 repositories:
   - name: governance

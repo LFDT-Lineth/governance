@@ -6,44 +6,46 @@ teams:
     members:
       - thelinuxfoundation
   - name: lineth-admin
-    members:
+    maintainers:
       - julien-marchand
   - name: lineth-maintain
-    members:
+    maintainers:
       - julien-marchand
+    members:
       - eloi010
   - name: lineth-write
-    members:
+    maintainers:
+      - AlexandreBelling
+      - fluentcrafter
+      - gbotrel
       - julien-marchand
+      - OlivierBBB
+      - thedarkjester
+    members:
       - eloi010
       - FlorianHuc
       
-      - OlivierBBB
       - amkCha
       - DavePearce
       - letypequividelespoubelles
       - lorenzogentile404
       
-      - fluentcrafter
       - Filter94
       - gauravahuja
       - jonesho
       - nadeemb53
       
-      - thedarkjester
       - alainncls
       - kyzooghost
       - Othryades
       - VGau
       
-      - AlexandreBelling
       - arijitdutta67
       - bogdanbear
       - gusiri
       - Soleimani193
       - srinathln7
       
-      - gbotrel
       - ivokub
       - Tabaie
       - ThomasPiellard

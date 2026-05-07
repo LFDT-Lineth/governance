@@ -54,7 +54,8 @@ teams:
       - fab-10
       - daniellehrner
   - name: lineth-triage
-    members:
+    maintainers:
+      - julien-marchand
 repositories:
   - name: governance
     teams:

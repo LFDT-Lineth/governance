@@ -5,8 +5,63 @@ teams:
       - jwagantall
     members:
       - thelinuxfoundation
+  - name: lineth-admin
+    members:
+      - julien-marchand
+  - name: lineth-maintain
+    members:
+      - julien-marchand
+      - eloi010
+  - name: lineth-write
+    members:
+      - julien-marchand
+      - eloi010
+      - FlorianHuc
+      
+      - OlivierBBB
+      - amkCha
+      - DavePearce
+      - letypequividelespoubelles
+      - lorenzogentile404
+      
+      - fluentcrafter
+      - Filter94
+      - gauravahuja
+      - jonesho
+      - nadeemb53
+      
+      - thedarkjester
+      - alainncls
+      - kyzooghost
+      - Othryades
+      - VGau
+      
+      - AlexandreBelling
+      - arijitdutta67
+      - bogdanbear
+      - gusiri
+      - Soleimani193
+      - srinathln7
+      
+      - gbotrel
+      - ivokub
+      - Tabaie
+      - ThomasPiellard
+      - YaoJGalteland
+      
+      - fab-10
+      - daniellehrner
+  - name: lineth-triage
+    members:
 repositories:
   - name: governance
     teams:
       lf-staff: maintain
+    visibility: public
+  - name: lineth-monorepo
+    teams:
+      lineth-admin: admin
+      lineth-maintain: maintain
+      lineth-write: write
+      lineth-triage: triage
     visibility: public

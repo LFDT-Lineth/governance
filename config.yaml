@@ -15,12 +15,12 @@ teams:
       - eloi010
   - name: lineth-write
     maintainers:
-      - AlexandreBelling
-      - fluentcrafter
-      - gbotrel
+      #- AlexandreBelling
+      #- fluentcrafter
+      #- gbotrel
       - julien-marchand
-      - OlivierBBB
-      - thedarkjester
+      #- OlivierBBB
+      #- thedarkjester
     members:
       - eloi010
       - FlorianHuc
@@ -60,6 +60,8 @@ repositories:
   - name: governance
     teams:
       lf-staff: maintain
+      linea-admin: maintain
+      linea-maintain: write
     visibility: public
   - name: lineth-monorepo
     teams:

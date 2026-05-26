@@ -5,8 +5,23 @@ teams:
       - jwagantall
     members:
       - thelinuxfoundation
+  - name: lineth-admin
+    maintainers:
+      - julien-marchand
+  - name: lineth-maintain
+    maintainers:
+      - julien-marchand
+    members:
+      - eloi010
 repositories:
   - name: governance
     teams:
       lf-staff: maintain
+      lineth-admin: maintain
+      lineth-maintain: write
     visibility: public
+  - name: lineth-migration-drill
+    teams:
+      lineth-admin: admin
+      lineth-maintain: maintain
+    visibility: private

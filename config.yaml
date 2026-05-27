@@ -13,12 +13,62 @@ teams:
       - julien-marchand
     members:
       - eloi010
+  - name: lineth-write
+    maintainers:
+      #- AlexandreBelling
+      #- fluentcrafter
+      #- gbotrel
+      - julien-marchand
+      #- OlivierBBB
+      #- thedarkjester
+    members:
+      - eloi010
+      - FlorianHuc
+      
+      - amkCha
+      - DavePearce
+      - letypequividelespoubelles
+      - lorenzogentile404
+      
+      - Filter94
+      - gauravahuja
+      - jonesho
+      - nadeemb53
+      
+      - alainncls
+      - kyzooghost
+      - Othryades
+      - VGau
+      
+      - arijitdutta67
+      - bogdanbear
+      - gusiri
+      - Soleimani193
+      - srinathln7
+      
+      - ivokub
+      - Tabaie
+      - ThomasPiellard
+      - YaoJGalteland
+      
+      - fab-10
+      - daniellehrner
+  - name: lineth-triage
+    maintainers:
+      - julien-marchand
 repositories:
   - name: governance
     teams:
       lf-staff: maintain
       lineth-admin: maintain
       lineth-maintain: write
+    visibility: public
+  - name: lineth-monorepo
+    teams:
+      lineth-admin: admin
+      lineth-maintain: maintain
+      lineth-write: write
+      lineth-triage: triage
     visibility: public
   - name: lineth-migration-drill
     teams:

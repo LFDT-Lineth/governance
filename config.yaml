@@ -57,6 +57,9 @@ teams:
   - name: lineth-triage
     maintainers:
       - julien-marchand
+  - name: zkc-admin
+    maintainers:
+      - DavePearce
 repositories:
   - name: governance
     teams:
@@ -67,6 +70,7 @@ repositories:
   - name: zkc
     teams:
       lineth-admin: admin
+      zkc-admin: admin
       lineth-maintain: maintain
       lineth-write: write
       lineth-triage: triage

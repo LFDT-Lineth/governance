@@ -61,6 +61,12 @@ teams:
     maintainers:
       - DavePearce
 repositories:
+  - name: .github
+    teams:
+      lf-staff: maintain
+      lineth-admin: maintain
+      lineth-maintain: write
+    visibility: public
   - name: governance
     teams:
       lf-staff: maintain

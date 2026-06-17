@@ -81,11 +81,6 @@ repositories:
       lineth-write: write
       lineth-triage: triage
     visibility: public
-  - name: lineth-migration-drill
-    teams:
-      lineth-admin: admin
-      lineth-maintain: maintain
-    visibility: private
   - name: lineth-monorepo
     teams:
       lineth-admin: admin

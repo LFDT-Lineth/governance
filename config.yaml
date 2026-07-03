@@ -61,6 +61,75 @@ teams:
   - name: zkc-admin
     maintainers:
       - DavePearce
+  - name: team-coordinator
+    maintainers:
+      - fluentcrafter
+    members:
+      - Filter94
+      - gauravahuja
+      - jonesho
+      - nadeemb53
+  - name: team-contracts
+    maintainers:
+      - thedarkjester
+    members:
+      - alainncls
+      - kyzooghost
+      - Othryades
+      - VGau
+  - name: team-engineering
+    maintainers: 
+      - julien-marchand
+    formation:
+      - team-coordinator
+      - team-contracts
+  - name: team-prover-wizard
+    maintainers:
+      - AlexandreBelling
+    members:
+      - Soleimani193
+      - bogdanbear
+      - ThomasPiellard
+  - name: team-prover-recursion
+    maintainers:
+      - ivokub
+    members:
+      - YaoJGalteland
+      - arijitdutta67
+      - Tabaie
+  - name: team-prover-perf
+    maintainers:
+      - gbotrel
+    members:
+      - yelhousni
+      - gusiri
+      - srinathln7
+  - name: team-gnark
+    maintainers:
+      - gbotrel
+    members:
+      - Tabaie
+      - ThomasPiellard
+      - YaoJGalteland
+      - yelhousni
+      - bogdanbear
+  - name: team-prover
+    maintainers:
+      - AlexandreBelling
+    formation:
+      - team-prover-wizard
+      - team-prover-recursion
+      - team-prover-perf
+      - team-gnark
+  - name: team-arithmetization
+    maintainers:
+      - OlivierBBB
+    members:
+      - amkCha
+      - DavePearce
+      - letypequividelespoubelles
+      - lorenzogentile404
+
 repositories:
   - name: .github
     teams:

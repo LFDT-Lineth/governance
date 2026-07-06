@@ -1,9 +1,10 @@
 teams:
   - name: lf-staff
     maintainers:
-      - ryjones
       - jwagantall
+      - ryjones
     members:
+      - SeanBohan
       - thelinuxfoundation
   - name: lineth-admin
     maintainers:

@@ -17,76 +17,44 @@ teams:
     maintainers:
       - julien-marchand
     members:
+      - AlexandreBelling
+      - fluentcrafter
+      - gbotrel
+      - OlivierBBB
+      - thedarkjester
+    
       - eloi010
       - FlorianHuc
-      - fab-10
-      - daniellehrner
-    formation:
-      - team-coordinator
-      - team-contracts
-      - team-prover-wizard
-      - team-prover-recursion
-      - team-prover-perf
-      - team-arithmetization
-  - name: team-coordinator
-    maintainers:
-      - fluentcrafter
-    members:
-      - Filter94
-      - gauravahuja
-      - jonesho
-      - nadeemb53
-  - name: team-contracts
-    maintainers:
-      - thedarkjester
-    members:
-      - alainncls
-      - kyzooghost
-      - Othryades
-      - VGau
-  - name: team-engineering
-    maintainers:
-      - julien-marchand
-    formation:
-      - team-coordinator
-      - team-contracts
-  - name: team-prover-wizard
-    maintainers:
-      - AlexandreBelling
-    members:
-      - Soleimani193
-      - bogdanbear
-      - ThomasPiellard
-  - name: team-prover-recursion
-    maintainers:
-      - ivokub
-    members:
-      - YaoJGalteland
-      - arijitdutta67
-      - Tabaie
-  - name: team-prover-perf
-    maintainers:
-      - gbotrel
-    members:
-      - yelhousni
-      - gusiri
-      - srinathln7
-  - name: team-prover
-    maintainers:
-      - AlexandreBelling
-    formation:
-      - team-prover-wizard
-      - team-prover-recursion
-      - team-prover-perf
-      - team-gnark
-  - name: team-arithmetization
-    maintainers:
-      - OlivierBBB
-    members:
+      
       - amkCha
       - DavePearce
       - letypequividelespoubelles
       - lorenzogentile404
+      
+      - Filter94
+      - gauravahuja
+      - jonesho
+      - nadeemb53
+      
+      - alainncls
+      - kyzooghost
+      - Othryades
+      - VGau
+      
+      - arijitdutta67
+      - bogdanbear
+      - gusiri
+      - Soleimani193
+      - srinathln7
+      
+      - ivokub
+      - Tabaie
+      - ThomasPiellard
+      - YaoJGalteland
+      - yelhousni
+      
+      - fab-10
+      - daniellehrner
   - name: lineth-triage
     maintainers:
       - julien-marchand

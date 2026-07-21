@@ -18,10 +18,10 @@ teams:
     maintainers:
       - julien-marchand
     members:
+      - daniellehrner
       - eloi010
       - FlorianHuc
       - fab-10
-      - daniellehrner
     formation:
       - team-coordinator
       - team-contracts
@@ -44,6 +44,7 @@ teams:
       - alainncls
       - kyzooghost
       - Othryades
+      - pajicf
       - VGau
   - name: team-engineering
     maintainers:
@@ -55,23 +56,23 @@ teams:
     maintainers:
       - AlexandreBelling
     members:
-      - Soleimani193
       - bogdanbear
+      - Soleimani193
       - ThomasPiellard
   - name: team-prover-recursion
     maintainers:
       - ivokub
     members:
-      - YaoJGalteland
       - arijitdutta67
       - Tabaie
+      - YaoJGalteland
   - name: team-prover-perf
     maintainers:
       - gbotrel
     members:
-      - yelhousni
       - gusiri
       - srinathln7
+      - yelhousni
   - name: team-prover
     maintainers:
       - AlexandreBelling

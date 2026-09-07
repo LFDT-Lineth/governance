@@ -1,9 +1,10 @@
 teams:
   - name: lf-staff
     maintainers:
-      - ryjones
       - jwagantall
+      - ryjones
     members:
+      - SeanBohan
       - thelinuxfoundation
   - name: lineth-admin
     maintainers:
@@ -17,43 +18,77 @@ teams:
     maintainers:
       - julien-marchand
     members:
-      - AlexandreBelling
-      - fluentcrafter
-      - gbotrel
-      - OlivierBBB
-      - thedarkjester
-    
+      - daniellehrner
       - eloi010
       - FlorianHuc
-      
-      - amkCha
-      - DavePearce
-      - letypequividelespoubelles
-      - lorenzogentile404
-      
+      - fab-10
+    formation:
+      - team-coordinator
+      - team-contracts
+      - team-prover-wizard
+      - team-prover-recursion
+      - team-prover-perf
+      - team-arithmetization
+  - name: team-coordinator
+    maintainers:
+      - fluentcrafter
+    members:
       - Filter94
       - gauravahuja
       - jonesho
       - nadeemb53
-      
+  - name: team-contracts
+    maintainers:
+      - thedarkjester
+    members:
       - alainncls
       - kyzooghost
       - Othryades
+      - pajicf
       - VGau
-      
-      - arijitdutta67
+  - name: team-engineering
+    maintainers:
+      - julien-marchand
+    formation:
+      - team-coordinator
+      - team-contracts
+  - name: team-prover-wizard
+    maintainers:
+      - AlexandreBelling
+    members:
       - bogdanbear
-      - gusiri
       - Soleimani193
-      - srinathln7
-      
-      - ivokub
-      - Tabaie
       - ThomasPiellard
+  - name: team-prover-recursion
+    maintainers:
+      - ivokub
+    members:
+      - arijitdutta67
+      - Tabaie
       - YaoJGalteland
-      
-      - fab-10
-      - daniellehrner
+  - name: team-prover-perf
+    maintainers:
+      - gbotrel
+    members:
+      - gusiri
+      - srinathln7
+      - yelhousni
+  - name: team-prover
+    maintainers:
+      - AlexandreBelling
+    formation:
+      - team-prover-wizard
+      - team-prover-recursion
+      - team-prover-perf
+      - team-gnark
+  - name: team-arithmetization
+    maintainers:
+      - OlivierBBB
+    members:
+      - amkCha
+      - DavePearce
+      - letypequividelespoubelles
+      - lorenzogentile404
   - name: lineth-triage
     maintainers:
       - julien-marchand

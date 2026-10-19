@@ -50,10 +50,11 @@ teams:
       - team-coordinator
       - team-contracts
   - name: team-prover-wizard
+    maintainers:
+      - ThomasPiellard
     members:
       - bogdanbear
       - Soleimani193
-      - ThomasPiellard
   - name: team-prover-recursion
     maintainers:
       - ivokub
@@ -75,10 +76,11 @@ teams:
       - team-prover-perf
       - team-gnark
   - name: team-arithmetization
+    maintainers:
+      - letypequividelespoubelles
     members:
       - amkCha
       - DavePearce
-      - letypequividelespoubelles
       - lorenzogentile404
   - name: lineth-triage
     maintainers:

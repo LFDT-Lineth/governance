@@ -8,18 +8,15 @@ teams:
       - thelinuxfoundation
   - name: lineth-admin
     maintainers:
-      - julien-marchand
+      - eloi010
   - name: lineth-maintain
     maintainers:
-      - julien-marchand
-    members:
       - eloi010
   - name: lineth-write
     maintainers:
-      - julien-marchand
+      - eloi010
     members:
       - daniellehrner
-      - eloi010
       - FlorianHuc
       - fab-10
     formation:
@@ -48,13 +45,11 @@ teams:
       - VGau
   - name: team-engineering
     maintainers:
-      - julien-marchand
+      - eloi010
     formation:
       - team-coordinator
       - team-contracts
   - name: team-prover-wizard
-    maintainers:
-      - AlexandreBelling
     members:
       - bogdanbear
       - Soleimani193
@@ -74,16 +69,12 @@ teams:
       - srinathln7
       - yelhousni
   - name: team-prover
-    maintainers:
-      - AlexandreBelling
     formation:
       - team-prover-wizard
       - team-prover-recursion
       - team-prover-perf
       - team-gnark
   - name: team-arithmetization
-    maintainers:
-      - OlivierBBB
     members:
       - amkCha
       - DavePearce
@@ -91,7 +82,7 @@ teams:
       - lorenzogentile404
   - name: lineth-triage
     maintainers:
-      - julien-marchand
+      - eloi010
   - name: zkc-admin
     maintainers:
       - DavePearce

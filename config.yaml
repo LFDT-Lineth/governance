@@ -95,6 +95,10 @@ teams:
   - name: zkc-admin
     maintainers:
       - DavePearce
+  - name: lineth-monorepo-admin
+    maintainers:
+      - eloi010
+      - ivokub
 repositories:
   - name: .github
     teams:
@@ -119,6 +123,7 @@ repositories:
   - name: lineth-monorepo
     teams:
       lineth-admin: admin
+      lineth-monorepo-admin: admin
       lineth-maintain: maintain
       lineth-write: write
       lineth-triage: triage

@@ -74,7 +74,6 @@ teams:
       - team-prover-wizard
       - team-prover-recursion
       - team-prover-perf
-      - team-gnark
   - name: team-arithmetization
     maintainers:
       - letypequividelespoubelles

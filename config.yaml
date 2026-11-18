@@ -93,6 +93,7 @@ teams:
       - ivokub
   - name: team-docs
     maintainers:
+      - eloi010
       - jimmeilin
     members:
       - alexandratran

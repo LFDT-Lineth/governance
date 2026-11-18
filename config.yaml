@@ -91,6 +91,11 @@ teams:
     maintainers:
       - eloi010
       - ivokub
+  - name: team-docs
+    maintainers:
+      - eloi010
+    members:
+      - jimmeilin
 repositories:
   - name: .github
     teams:
@@ -116,6 +121,14 @@ repositories:
     teams:
       lineth-admin: admin
       lineth-monorepo-admin: admin
+      lineth-maintain: maintain
+      lineth-write: write
+      lineth-triage: triage
+    visibility: public
+  - name: lineth-docs
+    teams:
+      lineth-admin: admin
+      team-docs: maintain
       lineth-maintain: maintain
       lineth-write: write
       lineth-triage: triage

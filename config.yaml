@@ -93,9 +93,11 @@ teams:
       - ivokub
   - name: team-docs
     maintainers:
-      - eloi010
-    members:
       - jimmeilin
+    members:
+      - alexandratran
+      - bgravenorst
+      - joshuafernandes
 repositories:
   - name: .github
     teams:
